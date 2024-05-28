@@ -1,4 +1,3 @@
-Copy code
 CREATE TABLE OrderDetail (
     order_detail_id SERIAL PRIMARY KEY,
     order_id INT,
