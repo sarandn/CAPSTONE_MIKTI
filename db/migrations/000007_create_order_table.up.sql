@@ -1,4 +1,4 @@
-CREATE TABLE "Order" (
+CREATE TABLE Order (
     order_id SERIAL PRIMARY KEY,
     user_id INT,
     order_date TIMESTAMP,
