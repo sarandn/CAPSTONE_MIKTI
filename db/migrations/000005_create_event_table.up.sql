@@ -13,6 +13,6 @@ CREATE TABLE events (
     total_like int,
     created_at timestamp DEFAULT CURRENT_TIMESTAMP,
     updated_at timestamp DEFAULT CURRENT_TIMESTAMP,
-    CONTRAINT fk_users FOREIGN KEY(user_id) REFERENCES users(user_id),
-    CONTRAINT fk_categories FOREIGN KEY(category_id) REFERENCES categories(category_id)
-)
+    CONSTRAINT fk_users FOREIGN KEY(user_id) REFERENCES users(user_id),
+    CONSTRAINT fk_category FOREIGN KEY(category_id) REFERENCES category(category_id)
+);
