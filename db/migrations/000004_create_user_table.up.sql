@@ -8,5 +8,5 @@ CREATE TABLE users (
     role_id_fk int NOT NULL,
     created_at timestamp DEFAULT CURRENT_TIMESTAMP,
     updated_at timestamp DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT fk_roles FOREIGN KEY(role_id_fk) REFERENCES roles(role_id) on delete
+    CONSTRAINT fk_roles FOREIGN KEY(role_id_fk) REFERENCES roles(role_id)
 );
