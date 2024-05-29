@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS quantites;
+DROP TABLE IF EXISTS quantities;
