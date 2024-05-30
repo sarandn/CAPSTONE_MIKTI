@@ -2,8 +2,11 @@ module capstone-mikti
 
 go 1.21.2
 
+<<<<<<< HEAD
 require gorm.io/gorm v1.25.10
 
+=======
+>>>>>>> 606a86ba21d77062abc7536a745cd8a506be030b
 require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20231201235250-de7065d80cb9 // indirect
@@ -15,4 +18,8 @@ require (
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
 	gorm.io/driver/postgres v1.5.7 // indirect
+<<<<<<< HEAD
+=======
+	gorm.io/gorm v1.25.10 // indirect
+>>>>>>> 606a86ba21d77062abc7536a745cd8a506be030b
 )
